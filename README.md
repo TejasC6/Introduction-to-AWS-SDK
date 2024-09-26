@@ -1,9 +1,8 @@
 #### Name: Tejas Chandrasekhar
-#### ASU ID: 1233415172
 #### Course: CSE 546 'Cloud Computing' by Yuli Deng, ASU Fall '24
 
 
-# YouTube video Link:
+# YouTube Video Link:
 ```
 https://youtu.be/hvhBPwr8-c8
 ```
@@ -42,6 +41,20 @@ Common files in the project's .zip file i.e., files imported by 2 or more main f
    - Returns SQS Queue URL of the SQS queue created - useful in multiple actions performed on SQS queues like sending messages, counting number of messages and receiving messages 
 
 ## Project Description and Procedure:
+This is an individual project.
+
+You need to program an application that requests a list of required resources from AWS, check and list all the resources assigned to you, then destroy all the resources.
+
+The required resources are:
+
+An EC2 instance(VM):
+
+Using free tier eligible Ubuntu AMIT2.micro tier using your own key pair with your name as the key pair name
+An S3 bucket.
+
+An SQS queue with the FIFO type.
+
+Your application should:
 1. Load the AWS SDK(you may use whatever language you prefer, as long as there is an AWS SDK available)
    - Procedure: Completed in previous steps
 2. Read your access information, to be able to access AWS service (Guidance of how to get access information like access key ID, token and session key are included in the AWS Introduction ppt that was shared with you earlier.)
